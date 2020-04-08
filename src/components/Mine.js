@@ -16,26 +16,28 @@ Mine = (props) =>{
 
 const styles = StyleSheet.create({
     container: {
+        position: 'absolute',
         alignItems: 'center',
-        justifyContent: 'center',
-        position: 'absolute'
+        justifyContent: 'center'
+        
         
     },
     coreMine: {
-        height: 14,
-        width: 14,
+        height: 12,
+        width: 12,
         borderRadius: 10,
         backgroundColor: 'black',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
     },
     line: {
-        position: 'absolute',
+       position: 'absolute',
         height: 3,
         width: 20,
         borderRadius: 3,
         backgroundColor: 'black',
-        alignItems:'center'
+        alignItems:'center',
+        justifyContent: 'center'
     }
 })
 
